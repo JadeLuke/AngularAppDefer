@@ -1,0 +1,7 @@
+<button class="button-1" role="button" #showData>Show data</button>
+@defer(on interaction(showData)) {
+
+  <app-home/>
+
+}
+<router-outlet />
