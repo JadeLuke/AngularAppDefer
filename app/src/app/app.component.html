@@ -1,5 +1,5 @@
-<button class="button-1" role="button" #showData>Show data</button>
-@defer(on interaction(showData)) {
+<button class="button-1" role="button" (click)="onShow()" #isLoad>Show data</button>
+@defer(on hover(isLoad)) {
 
   <app-home/>
 

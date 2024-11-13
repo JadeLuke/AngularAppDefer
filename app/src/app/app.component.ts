@@ -12,4 +12,10 @@ import { NavComponent } from './shared/nav/nav.component';
 })
 export class AppComponent {
   title = 'app';
+
+  isLoad = false
+
+  onShow(){
+    this.isLoad = !this.isLoad
+  }
 }
